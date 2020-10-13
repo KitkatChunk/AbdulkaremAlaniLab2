@@ -26,10 +26,11 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
+
         android:id="@+id/AlaniImageview"
         android:layout_width="270dp"
         android:layout_height="303dp"
-        app:layout_constraintBottom_toBottomOf="@+id/AlaniStartButton"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView"
