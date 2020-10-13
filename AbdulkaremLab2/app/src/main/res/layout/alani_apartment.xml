@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" />
+    android:background="#8E8888">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="252dp"
+        android:layout_height="177dp"
+        android:layout_x="92dp"
+        android:layout_y="101dp"
+        app:srcCompat="@drawable/apartment1" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="243dp"
+        android:layout_height="196dp"
+        android:layout_x="85dp"
+        android:layout_y="380dp"
+        app:srcCompat="@drawable/apartment2" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="125dp"
+        android:layout_y="26dp"
+        android:text="Apartments"
+        android:textSize="28sp" />
+</AbsoluteLayout>

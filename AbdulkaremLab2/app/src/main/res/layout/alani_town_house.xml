@@ -1,6 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<AbsoluteLayout
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    />
+    android:background="#8E8888">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_x="48dp"
+        android:layout_y="538dp"
+        android:text="123456 toronto on"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="311dp"
+        android:layout_height="182dp"
+        android:layout_x="49dp"
+        android:layout_y="65dp"
+        app:srcCompat="@drawable/home1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="311dp"
+        android:layout_height="221dp"
+        android:layout_x="45dp"
+        android:layout_y="317dp"
+        app:srcCompat="@drawable/home2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_x="159dp"
+        android:layout_y="27dp"
+        android:text="Homes"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_x="45dp"
+        android:layout_y="257dp"
+        android:text="123456 toronto on"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="44dp"
+        android:layout_y="287dp"
+        android:text="Price: 654823"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="48dp"
+        android:layout_y="570dp"
+        android:text="Price: 158795"
+        android:textSize="18sp" />
+</AbsoluteLayout>

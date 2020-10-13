@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android"/>
+    android:background="#8E8888">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="340dp"
+        android:layout_height="177dp"
+        android:layout_x="37dp"
+        android:layout_y="93dp"
+        app:srcCompat="@drawable/condo1" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="37dp"
+        android:layout_y="23dp"
+        android:text="Condominium Apartments"
+        android:textSize="28sp" />
+</AbsoluteLayout>
