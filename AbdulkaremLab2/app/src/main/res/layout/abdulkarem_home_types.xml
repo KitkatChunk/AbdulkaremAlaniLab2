@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AbdulkaremHomeType">
+
+
+    <Button
+        android:id="@+id/abdulkaremapartmentbtn"
+        android:layout_width="250dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:text="apartment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.334" />
+
+    <Button
+        android:id="@+id/abdulkaremdetachedhomebtn"
+        android:layout_width="250dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:text="detached_home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.429" />
+
+    <Button
+        android:id="@+id/abdulkaremsemidetachedhomebtn"
+        android:layout_width="250dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:text="semi-detached Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.507" />
+
+    <Button
+        android:id="@+id/abdulkaremcondominiumapartmentbtn"
+        android:layout_width="250dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:text="Condominium Apartment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <Button
+        android:id="@+id/abdulkaremtownhousebtn"
+        android:layout_width="250dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:text="Town House"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.694" />
+</androidx.constraintlayout.widget.ConstraintLayout>
