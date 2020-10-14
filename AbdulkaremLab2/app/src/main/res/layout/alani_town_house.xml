@@ -9,8 +9,8 @@
         android:id="@+id/textView5"
         android:layout_width="158dp"
         android:layout_height="wrap_content"
-        android:layout_x="48dp"
-        android:layout_y="538dp"
+        android:layout_x="31dp"
+        android:layout_y="541dp"
         android:text="123456 toronto on"
         android:textSize="18sp" />
 
@@ -18,7 +18,7 @@
         android:id="@+id/imageView"
         android:layout_width="311dp"
         android:layout_height="182dp"
-        android:layout_x="49dp"
+        android:layout_x="30dp"
         android:layout_y="65dp"
         app:srcCompat="@drawable/home1" />
 
@@ -26,8 +26,8 @@
         android:id="@+id/imageView2"
         android:layout_width="311dp"
         android:layout_height="221dp"
-        android:layout_x="45dp"
-        android:layout_y="317dp"
+        android:layout_x="28dp"
+        android:layout_y="314dp"
         app:srcCompat="@drawable/home2" />
 
     <TextView
@@ -43,8 +43,8 @@
         android:id="@+id/textView3"
         android:layout_width="158dp"
         android:layout_height="wrap_content"
-        android:layout_x="45dp"
-        android:layout_y="257dp"
+        android:layout_x="30dp"
+        android:layout_y="251dp"
         android:text="123456 toronto on"
         android:textSize="18sp" />
 
@@ -52,8 +52,8 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="44dp"
-        android:layout_y="287dp"
+        android:layout_x="29dp"
+        android:layout_y="278dp"
         android:text="Price: 654823"
         android:textSize="18sp" />
 
@@ -61,8 +61,8 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="48dp"
-        android:layout_y="570dp"
+        android:layout_x="31dp"
+        android:layout_y="567dp"
         android:text="Price: 158795"
         android:textSize="18sp" />
 </AbsoluteLayout>

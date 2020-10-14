@@ -15,18 +15,18 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="363dp"
-        android:layout_height="219dp"
+        android:layout_width="294dp"
+        android:layout_height="199dp"
         android:layout_x="25dp"
-        android:layout_y="48dp"
+        android:layout_y="65dp"
         app:srcCompat="@drawable/detachedhome1" />
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="308dp"
-        android:layout_height="247dp"
-        android:layout_x="58dp"
-        android:layout_y="285dp"
+        android:layout_width="262dp"
+        android:layout_height="203dp"
+        android:layout_x="36dp"
+        android:layout_y="316dp"
         app:srcCompat="@drawable/detachedhome2" />
 
     <TextView
@@ -37,4 +37,40 @@
         android:layout_y="4dp"
         android:text="Detached Homes"
         android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="37dp"
+        android:layout_y="268dp"
+        android:text="Detached House 1"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="37dp"
+        android:layout_y="288dp"
+        android:text="price 500000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="37dp"
+        android:layout_y="511dp"
+        android:text="Detached House 2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="37dp"
+        android:layout_y="534dp"
+        android:text="Price 350000"
+        android:textSize="18sp" />
 </AbsoluteLayout>

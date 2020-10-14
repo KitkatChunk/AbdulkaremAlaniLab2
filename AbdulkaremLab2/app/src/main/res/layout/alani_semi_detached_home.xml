@@ -7,26 +7,62 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="340dp"
-        android:layout_height="234dp"
-        android:layout_x="46dp"
-        android:layout_y="78dp"
+        android:layout_width="279dp"
+        android:layout_height="210dp"
+        android:layout_x="30dp"
+        android:layout_y="94dp"
         app:srcCompat="@drawable/semidetachedhome1" />
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="343dp"
-        android:layout_height="208dp"
-        android:layout_x="38dp"
-        android:layout_y="351dp"
+        android:layout_width="281dp"
+        android:layout_height="198dp"
+        android:layout_x="27dp"
+        android:layout_y="360dp"
         app:srcCompat="@drawable/semidetachedhome2" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="301dp"
         android:layout_height="wrap_content"
-        android:layout_x="63dp"
-        android:layout_y="22dp"
+        android:layout_x="57dp"
+        android:layout_y="21dp"
         android:text="Semi Detached Homes"
         android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="29dp"
+        android:layout_y="325dp"
+        android:text="price 14753"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="563dp"
+        android:text="Semi Detached Home 2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="586dp"
+        android:text="price 123456"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="305dp"
+        android:text="Semi Detached Home 1"
+        android:textSize="18sp" />
 </AbsoluteLayout>
