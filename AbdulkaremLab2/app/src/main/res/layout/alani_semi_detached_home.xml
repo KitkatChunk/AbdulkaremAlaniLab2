@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_x="29dp"
         android:layout_y="325dp"
-        android:text="price 14753"
+        android:text="Price:1111"
         android:textSize="18sp" />
 
     <TextView
@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_x="27dp"
         android:layout_y="586dp"
-        android:text="price 123456"
+        android:text="Price:2222"
         android:textSize="18sp" />
 
     <TextView
@@ -65,4 +65,20 @@
         android:layout_y="305dp"
         android:text="Semi Detached Home 1"
         android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/semidetachedhomeonecheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="304dp"
+        android:layout_y="163dp"
+        android:text="Add to List" />
+
+    <CheckBox
+        android:id="@+id/semidetachedhometwocheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="311dp"
+        android:layout_y="440dp"
+        android:text="Add to List" />
 </AbsoluteLayout>

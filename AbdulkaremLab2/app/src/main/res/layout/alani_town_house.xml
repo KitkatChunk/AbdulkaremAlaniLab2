@@ -9,24 +9,24 @@
         android:id="@+id/textView5"
         android:layout_width="158dp"
         android:layout_height="wrap_content"
-        android:layout_x="31dp"
-        android:layout_y="541dp"
-        android:text="123456 toronto on"
+        android:layout_x="23dp"
+        android:layout_y="533dp"
+        android:text="TownHouse2"
         android:textSize="18sp" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="311dp"
-        android:layout_height="182dp"
-        android:layout_x="30dp"
-        android:layout_y="65dp"
+        android:layout_width="282dp"
+        android:layout_height="181dp"
+        android:layout_x="21dp"
+        android:layout_y="68dp"
         app:srcCompat="@drawable/home1" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="311dp"
-        android:layout_height="221dp"
-        android:layout_x="28dp"
+        android:layout_width="285dp"
+        android:layout_height="212dp"
+        android:layout_x="18dp"
         android:layout_y="314dp"
         app:srcCompat="@drawable/home2" />
 
@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_x="30dp"
         android:layout_y="251dp"
-        android:text="123456 toronto on"
+        android:text="TownHouse1"
         android:textSize="18sp" />
 
     <TextView
@@ -54,15 +54,31 @@
         android:layout_height="wrap_content"
         android:layout_x="29dp"
         android:layout_y="278dp"
-        android:text="Price: 654823"
+        android:text="Price: 1111"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="31dp"
-        android:layout_y="567dp"
-        android:text="Price: 158795"
+        android:layout_x="24dp"
+        android:layout_y="560dp"
+        android:text="Price: 2222"
         android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/townhouseonecheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="308dp"
+        android:layout_y="145dp"
+        android:text="Add to List" />
+
+    <CheckBox
+        android:id="@+id/townhousetwocheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="301dp"
+        android:layout_y="406dp"
+        android:text="Add to List" />
 </AbsoluteLayout>

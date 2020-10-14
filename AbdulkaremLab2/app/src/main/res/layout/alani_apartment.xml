@@ -10,15 +10,15 @@
         android:layout_width="252dp"
         android:layout_height="177dp"
         android:layout_x="16dp"
-        android:layout_y="95dp"
+        android:layout_y="76dp"
         app:srcCompat="@drawable/apartment1" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="243dp"
         android:layout_height="196dp"
-        android:layout_x="15dp"
-        android:layout_y="348dp"
+        android:layout_x="11dp"
+        android:layout_y="320dp"
         app:srcCompat="@drawable/apartment2" />
 
     <TextView
@@ -34,35 +34,51 @@
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="15dp"
-        android:layout_y="279dp"
-        android:text="location12412"
+        android:layout_x="13dp"
+        android:layout_y="258dp"
+        android:text="Apartment1"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="14dp"
-        android:layout_y="561dp"
-        android:text="location12413"
+        android:layout_x="12dp"
+        android:layout_y="523dp"
+        android:text="Apartment2"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="15dp"
-        android:layout_y="306dp"
-        android:text="Price:1249"
+        android:layout_x="12dp"
+        android:layout_y="285dp"
+        android:text="Price:1111"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="13dp"
-        android:layout_y="589dp"
-        android:text="Price:1249"
+        android:layout_x="11dp"
+        android:layout_y="552dp"
+        android:text="Price:2222"
         android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/aptonecheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="289dp"
+        android:layout_y="143dp"
+        android:text="Add to List" />
+
+    <CheckBox
+        android:id="@+id/apttwocheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="285dp"
+        android:layout_y="379dp"
+        android:text="Add to List" />
 </AbsoluteLayout>

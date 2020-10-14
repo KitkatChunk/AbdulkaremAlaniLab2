@@ -15,8 +15,8 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="294dp"
-        android:layout_height="199dp"
+        android:layout_width="268dp"
+        android:layout_height="184dp"
         android:layout_x="25dp"
         android:layout_y="65dp"
         app:srcCompat="@drawable/detachedhome1" />
@@ -25,8 +25,8 @@
         android:id="@+id/imageView7"
         android:layout_width="262dp"
         android:layout_height="203dp"
-        android:layout_x="36dp"
-        android:layout_y="316dp"
+        android:layout_x="30dp"
+        android:layout_y="317dp"
         app:srcCompat="@drawable/detachedhome2" />
 
     <TextView
@@ -53,7 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_x="37dp"
         android:layout_y="288dp"
-        android:text="price 500000"
+        android:text="Price:1111"
         android:textSize="18sp" />
 
     <TextView
@@ -71,6 +71,22 @@
         android:layout_height="wrap_content"
         android:layout_x="37dp"
         android:layout_y="534dp"
-        android:text="Price 350000"
+        android:text="Price:2222"
         android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/detachedhomeonecheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="302dp"
+        android:layout_y="148dp"
+        android:text="Add to List" />
+
+    <CheckBox
+        android:id="@+id/detachedhometwocheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="298dp"
+        android:layout_y="395dp"
+        android:text="Add to List" />
 </AbsoluteLayout>
