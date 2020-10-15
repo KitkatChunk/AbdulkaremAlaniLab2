@@ -2,18 +2,20 @@ package com.example.abdulkarem.Alani.S300993768;
 //Abdulkarem Alani-300993768- lab2
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 
 import java.util.ArrayList;
+import java.util.zip.CheckedOutputStream;
 
 public class AbdulkaremHomeType extends AppCompatActivity {
 
     CheckBox apt1checkBox, apt2checkBox, condocheckBox, detachedhome1checkBox, detachedhome2checkBox, semidetached1checkBox, semidetached2checkBox, townhouse1checkBox, townhouse2checkBox;
-
+    Button checkoutbtn;
     ArrayList<String> checkedhomes = new ArrayList<>();
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,15 @@ public class AbdulkaremHomeType extends AppCompatActivity {
         townhouse1checkBox = findViewById(R.id.townhouseonecheckBox);
         townhouse2checkBox = findViewById(R.id.townhousetwocheckBox);
 
+        checkoutbtn = findViewById(R.id.checkoutbutton);
+
+
+
+        checkoutbtn.setOnClickListener(view -> {
+            Intent intent = new Intent(AbdulkaremHomeType.this, AbdulkaremCheckoutScreen.class);
+            intent.putExtra("homes", checkedhomes);
+            startActivity(intent);
+        });
 
     }
 
@@ -132,15 +143,20 @@ public class AbdulkaremHomeType extends AppCompatActivity {
             }
         });
 
-
     }
+    
 
     @Override
     public void onBackPressed(){
         //show the previous view
         setContentView(R.layout.abdulkarem_home_types);
+        Intent intent = new Intent(AbdulkaremHomeType.this, AbdulkaremHomeType.class);
+        intent.putExtra("homes", checkedhomes);
+        startActivity(intent);
 
     }
+
+
 
 
 

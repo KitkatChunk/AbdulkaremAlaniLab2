@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AbdulkaremLab2">
-        <activity android:name=".AbdulkaremHomeType"></activity>
+        <activity android:name=".AbdulkaremPayment"></activity>
+        <activity android:name=".AbdulkaremCheckoutScreen" />
+        <activity android:name=".AbdulkaremHomeType" />
         <activity android:name=".AbdulkaremMainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

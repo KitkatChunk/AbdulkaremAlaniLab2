@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#8E8888">
+
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_x="137dp"
+        android:layout_y="24dp"
+        android:text="Payment"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="5dp"
+        android:layout_y="88dp"
+        android:text="Please fill the fields below:"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/nametxtfield"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="141dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/cardtxtfield"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="211dp"
+        android:ems="10"
+        android:hint="Credit Card Number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/emailtxtfield"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="277dp"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/addresstxtfield"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="346dp"
+        android:ems="10"
+        android:hint="Adress"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/orderbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="269dp"
+        android:layout_y="413dp"
+        android:text="Order" />
+
+</AbsoluteLayout>
