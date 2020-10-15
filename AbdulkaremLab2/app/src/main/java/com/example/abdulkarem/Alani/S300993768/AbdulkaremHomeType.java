@@ -2,14 +2,15 @@ package com.example.abdulkarem.Alani.S300993768;
 //Abdulkarem Alani-300993768- lab2
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.content.SharedPreferences;
 
 import java.util.ArrayList;
-import java.util.zip.CheckedOutputStream;
 
 public class AbdulkaremHomeType extends AppCompatActivity {
 
@@ -17,11 +18,12 @@ public class AbdulkaremHomeType extends AppCompatActivity {
     Button checkoutbtn;
     ArrayList<String> checkedhomes = new ArrayList<>();
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.abdulkarem_home_types);
-
+        setContentView(R.layout.alani_home_types);
+        //find the correct checkbox
         apt1checkBox = findViewById(R.id.aptonecheckBox);
         apt2checkBox = findViewById(R.id.apttwocheckbox);
 
@@ -40,6 +42,9 @@ public class AbdulkaremHomeType extends AppCompatActivity {
 
 
 
+
+
+        //adding the selected homes from the list
         checkoutbtn.setOnClickListener(view -> {
             Intent intent = new Intent(AbdulkaremHomeType.this, AbdulkaremCheckoutScreen.class);
             intent.putExtra("homes", checkedhomes);
@@ -49,6 +54,7 @@ public class AbdulkaremHomeType extends AppCompatActivity {
     }
 
     public void onClick(View view) {
+        //switching the layout accordingly
         switch(view.getId())
         {
             case R.id.abdulkaremapartmentbtn:
@@ -67,7 +73,7 @@ public class AbdulkaremHomeType extends AppCompatActivity {
                 setContentView(R.layout.alani_town_house);
                 break;
 
-            default: setContentView(R.layout.abdulkarem_home_types);
+            default: setContentView(R.layout.alani_home_types);
         }
 
 
@@ -75,6 +81,7 @@ public class AbdulkaremHomeType extends AppCompatActivity {
 
     public void onClickListener(View view)
     {
+        //adding the price and address for selected home.
         apt1checkBox.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
@@ -149,7 +156,8 @@ public class AbdulkaremHomeType extends AppCompatActivity {
     @Override
     public void onBackPressed(){
         //show the previous view
-        setContentView(R.layout.abdulkarem_home_types);
+        setContentView(R.layout.alani_home_types);
+
         Intent intent = new Intent(AbdulkaremHomeType.this, AbdulkaremHomeType.class);
         intent.putExtra("homes", checkedhomes);
         startActivity(intent);
@@ -157,9 +165,27 @@ public class AbdulkaremHomeType extends AppCompatActivity {
     }
 
 
+//tried implementing application pref
+    public void sendmsg(View view){
+        // Do something in response to button
+        SharedPreferences myPreference =
+                getSharedPreferences("MyGoodMemory", 0);
+        //prepare it for edit by creating and Edit object
+        SharedPreferences.Editor prefEditor = myPreference.edit();
+        //store a string in memory
+        prefEditor.putString("OurString", checkedhomes.toString());
+        //commit the transaction
+        prefEditor.commit();
+        //call intent only to show the next activity
+        Intent intent = new Intent(this, AbdulkaremCheckoutScreen.class);
+        startActivity(intent);
+    }
 
+    public void homes(Context context){
+        SharedPreferences myPreference = getSharedPreferences("CheckedHomes", 0);
+        SharedPreferences.Editor prefEditor = myPreference.edit();
 
-
+    }
 
 
 

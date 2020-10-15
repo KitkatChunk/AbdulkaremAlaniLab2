@@ -29,4 +29,13 @@
         android:layout_x="258dp"
         android:layout_y="513dp"
         android:text="Payment" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="313dp"
+        android:layout_height="138dp"
+        android:layout_x="40dp"
+        android:layout_y="346dp"
+        android:text="I tried Implementing the storing and recovering of data from checkbox but no luck :("
+        android:textSize="24sp" />
 </AbsoluteLayout>

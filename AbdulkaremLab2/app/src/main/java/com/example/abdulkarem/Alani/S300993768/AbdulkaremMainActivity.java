@@ -15,7 +15,7 @@ public class AbdulkaremMainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.alani_activity_main);
 
        // image display
         ImageView myImageView = (ImageView) findViewById(R.id.AlaniImageview);

@@ -1,21 +1,15 @@
 package com.example.abdulkarem.Alani.S300993768;
-
-import androidx.appcompat.app.AlertDialog;
+//Abdulkarem Alani-300993768- lab2
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Editable;
-import android.view.Display;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
-
-import com.google.android.material.snackbar.Snackbar;
 
 public class AbdulkaremPayment extends AppCompatActivity {
-
+//declaring of button and edit text
     Button orderbutton;
     EditText nametxtfield, cardtxtfield, emailtxtfield, addresstxtfield;
 
@@ -24,7 +18,7 @@ public class AbdulkaremPayment extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_abdulkarem_payment);
+        setContentView(R.layout.alani_payment);
 
         orderbutton = (Button) findViewById(R.id.orderbutton);
 
@@ -33,6 +27,7 @@ public class AbdulkaremPayment extends AppCompatActivity {
         cardtxtfield = (EditText) findViewById(R.id.cardtxtfield);
         addresstxtfield = (EditText) findViewById(R.id.addresstxtfield);
 
+        //Edit field Validation according to the fields.
         orderbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
